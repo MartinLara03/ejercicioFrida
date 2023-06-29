@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&family=Ysabeau+Infant:wght@1&display=swap');
+
+/* === IMPORTANTE ===================================================
+   No modificar estos estilos, ya que son imprescindibles para
+   que la pÃ¡gina se vea correctamente.
+   ================================================================== */
+
+/*-- BÃ¡sico ----------------------------------------------------------*/
+ul,
+ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+p,
+form {
+  margin: 0;
+  padding: 0;
+ /* font-family: 'Roboto', sans-serif; */
+  font-family: arial;
+  font-size: 0.9em;
+  line-height: 1.4;
+
+}
+
+.clear {
+  clear: both;
+}
+
+img {
+  border: none;
+}
+
+/*-- Layout ----------------------------------------------------------*/
+#contenedor {
+  width: 95%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#cabecera,
+#menu,
+#lateral,
+#contenido,
+#contenido #principal,
+#contenido #pie {
+  border: 0px solid #777;
+}
+
+#secundario {
+  border: 1px solid #CC6600;
+}
+
+#cabecera {
+  clear: both;
+}
+
+
+
+#lateral {
+  float: left;
+  width: 23%;
+}
+
+#contenido {
+  float: right;
+  width: 75%;
+}
+
+#contenido #principal {
+  float: left;
+  width: 78%;
+}
+
+#contenido #secundario {
+  float: right;
+  width: 20%
+}
+
+#pie {
+  clear: both;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border-color: #333333;
+  background-color: #f8efef6c;
+  margin-top: 2em;
+  color: #1937DD;
+
+}
+
+#pie a{
+  color: #1937DD;
+  margin-top: 2em;
+  border-color: #757575;
+}
+
+
+/*-- Cabecera --------------------------------------------------------*/
+#cabecera #logo {
+  float: left;
+  color: #ee8a25;
+  font-size: 1.5em;
+}
+
+#cabecera #buscador {
+  float: right;
+}
+
+/*-- Menu ------------------------------------------------------------*/
+#menu ul#menu_principal li {
+  display: inline;
+  float: left;
+
+}
+
+/*-- SecciÃ³n Principal -----------------------------------------------*/
+#contenido #principal .articulo img {
+  width: 100px;
+  float: left;
+
+  margin-top: .5em;
+  margin-bottom: .5em;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+/*-- Pie de pÃ¡gina ---------------------------------------------------*/
+#pie .enlaces {
+  float: left;
+}
+
+#pie .copyright {
+  float: right;
+}
+
+/* === IMPORTANTE ===================================================
+   A partir de aquÃ­, se pueden aÃ±adir todos los estilos propios que 
+   sean necesarios.
+   ================================================================== */
+
+#cabecera {
+  padding: 1em
+}
+
+#menu {
+  margin: 0.5em;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border-bottom-color: #004C99;
+  background-image: url("menu.gif");
+}
+
+#menu_principal a {
+  color: #fafafa;
+  font-size: 1.1em;
+  margin-right: 0.9em;
+}
+
+#noticias {
+  background-color: #F8F8F8;
+  padding: 0.5em;
+  border-color: #C5C5C5;
+  border: 1px solid #777;
+
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+#noticias a {
+  color: #1937DD;
+}
+
+#noticias p {
+  color: #C7C7C8;
+}
+
+
+#publicidad {
+  background-color: #FFF6CD;
+  padding: 0.5em;
+  margin-top: 1px;
+  border-style: dashed;
+  border-color: #CC6600;
+}
+
+#publicidad a {
+  color: #CC6600;
+}
+
+#secundario h1 {
+  background-color: #DB905C;
+  color: #f0ecec;
+  padding: 0.2em;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#secundario p {
+  padding: 0.2em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#contenido h2 {
+  color: #CC6600;
+  font-size: 1.6em;
+}
+
+#principal a {
+  color: #f57a00;
+}
